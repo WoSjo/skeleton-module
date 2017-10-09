@@ -14,14 +14,13 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require spatie/:package_name
+composer require wosjo/:package_name
 ```
 
 ## Usage
 
 ``` php
-$skeleton = new Spatie\Skeleton();
-echo $skeleton->echoPhrase('Hello, Spatie!');
+$skeleton = new WoSjo\:package_name();
 ```
 
 ## Changelog
@@ -37,10 +36,6 @@ composer test
 ## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-## Security
-
-If you discover any security related issues, please email freek@spatie.be instead of using the issue tracker.
 
 ## Credits
 

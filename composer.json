@@ -9,9 +9,15 @@
   "license": "MIT",
   "authors": [
     {
-      "name": ":author_name",
-      "email": ":email",
-      "homepage": "https://github.com/WoSjo/",
+      "name": "Wouter van Marrum",
+      "email": "wouter.van.marrum@concept-core.nl",
+      "homepage": "https://github.com/concept-core",
+      "role": "Developer"
+    },
+    {
+      "name": "Jordy van Domselaar",
+      "email": "jordy.van.domselaar@outlook.com",
+      "homepage": "https://github.com/jordyvandomselaar",
       "role": "Developer"
     }
   ],

@@ -1,0 +1,51 @@
+{
+  "name": "wosjo/:package_name",
+  "description": ":package_description",
+  "keywords": [
+    "WoSjo",
+    ":package_name"
+  ],
+  "homepage": "https://github.com/WoSjo/:package_name",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": ":author_name",
+      "email": ":email",
+      "homepage": "https://github.com/WoSjo/",
+      "role": "Developer"
+    }
+  ],
+  "version": "0.0.1",
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "WoSjo\\:package_name\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "WoSjo\\:package_name\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "WoSjo\\:package_name\\SkeletonServiceProvider"
+      ],
+      "aliases": {
+        ":package_anme": "WoSjo\\:package_name\\SkeletonFacade"
+      }
+    }
+  }
+}

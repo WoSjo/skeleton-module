@@ -1,0 +1,7 @@
+build
+composer.lock
+docs
+vendor
+.idea
+.phpintel
+.DS_Store

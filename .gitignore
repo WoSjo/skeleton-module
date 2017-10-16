@@ -1,0 +1,5 @@
+build
+vendor
+.idea
+.phpintel
+.DS_Store
